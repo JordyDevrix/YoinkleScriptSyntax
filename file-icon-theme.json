@@ -1,0 +1,14 @@
+{
+    "iconDefinitions": {
+      "yoinkleScriptIcon": {
+        "iconPath": "./icons/yoinklelogo.png"
+      }
+    },
+    "fileExtensions": {
+      "ys": "yoinkleScriptIcon"
+    },
+    "languageIds": {
+      "yoinklescript": "yoinkleScriptIcon"
+    }
+  }
+  

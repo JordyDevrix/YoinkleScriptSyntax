@@ -25,6 +25,13 @@
         "configuration": "./language-configuration.json"
       }
     ],
+    "iconThemes": [
+      {
+        "id": "yoinkleScriptIcons",
+        "label": "YoinkleScript Icons",
+        "path": "./file-icon-theme.json"
+      }
+    ],
     "grammars": [
       {
         "language": "yoinklescript",
