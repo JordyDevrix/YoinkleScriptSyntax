@@ -20,7 +20,7 @@
 		},
 		{
 			"name": "constant.language.boolean.yoinklescript",
-			"match": "\\b(True|False)\\b"
+			"match": "\\b(True|False|None)\\b"
 		},
 		{
 			"name": "variable.other.yoinklescript",
