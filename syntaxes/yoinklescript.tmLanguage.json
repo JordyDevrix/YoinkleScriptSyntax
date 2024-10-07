@@ -1,0 +1,45 @@
+{
+	"scopeName": "source.yoinklescript",
+	"patterns": [
+		{
+			"name": "comment.line.hashtag.yoinklescript",
+			"match": "##.*$"
+		},
+		{
+			"name": "comment.block.yoinklescript",
+			"begin": "#",
+			"end": "#"
+		},
+		{
+			"name": "keyword.control.yoinklescript",
+			"match": "\\b(if|else|return|task|for|while)\\b"
+		},
+		{
+			"name": "entity.name.function.yoinklescript",
+			"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\("
+		},
+		{
+			"name": "constant.language.boolean.yoinklescript",
+			"match": "\\b(True|False)\\b"
+		},
+		{
+			"name": "variable.other.yoinklescript",
+			"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b"
+		},
+		{
+			"name": "constant.numeric.yoinklescript",
+			"match": "\\b\\d+\\b"
+		},
+		{
+			"name": "string.quoted.double.yoinklescript",
+			"begin": "\"",
+			"end": "\""
+		},
+		{
+			"name": "string.quoted.single.yoinklescript",
+			"begin": "'",
+			"end": "'"
+		}
+	],
+	"scope": "source.yoinklescript"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "yoinklescript",
+  "displayName": "YoinkleScript",
+  "description": "YoinkleScript Language Support",
+  "version": "0.0.1",
+  "publisher": "yourname",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "yoinklescript",
+        "aliases": [
+          "YoinkleScript",
+          "yoinklescript"
+        ],
+        "extensions": [
+          ".ys"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "yoinklescript",
+        "scopeName": "source.yoinklescript",
+        "path": "./syntaxes/yoinklescript.tmLanguage.json"
+      }
+    ]
+  }
+}
