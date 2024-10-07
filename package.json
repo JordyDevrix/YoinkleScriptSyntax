@@ -2,8 +2,12 @@
   "name": "yoinklescript",
   "displayName": "YoinkleScript",
   "description": "YoinkleScript Language Support",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JordyDevrix/YoinkleScriptSyntax"
+  },
   "version": "0.0.1",
-  "publisher": "yourname",
+  "publisher": "JordyDevrix",
   "engines": {
     "vscode": "^1.60.0"
   },
