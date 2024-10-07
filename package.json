@@ -22,14 +22,11 @@
         "extensions": [
           ".ys"
         ],
-        "configuration": "./language-configuration.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "yoinkleScriptIcons",
-        "label": "YoinkleScript Icons",
-        "path": "./file-icon-theme.json"
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icons/yoinklelogo.png",
+          "dark": "./icons/yoinklelogo.png"
+        }
       }
     ],
     "grammars": [
