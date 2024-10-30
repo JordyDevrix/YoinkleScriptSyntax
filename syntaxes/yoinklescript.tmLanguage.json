@@ -12,7 +12,7 @@
 		},
 		{
 			"name": "keyword.control.yoinklescript",
-			"match": "\\b(if|else|return|task|for|while)\\b"
+			"match": "\\b(if|else|return|task|for|while|break|skip)\\b"
 		},
 		{
 			"name": "entity.name.function.yoinklescript",
